@@ -42,9 +42,9 @@ public class MainActivity extends ActionBarActivity {
     /** Called when the user touches the button */
     public void setLabelText(View view) {
         // Do something in response to button click
-        TextView tv = (TextView) view.findViewById(R.id.topLabel);
-        EditText et =(EditText) view.findViewById(R.id.editText);
-        tv.setText("hi");
+        TextView tv = (TextView) findViewById(R.id.topLabelBug);
+        EditText et = (EditText) findViewById(R.id.editText);
+        tv.setText(et.getText());
 
 
     }

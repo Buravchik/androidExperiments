@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:height="250dp"
         android:background="#ffabdaff"
-        android:id="@+id/topLabel"/>
+        android:id="@+id/topLabelBug"/>
 
     <EditText
         android:layout_width="match_parent"
